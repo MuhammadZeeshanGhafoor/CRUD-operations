@@ -20,7 +20,7 @@ const Create = () => {
         e.preventDefault();
     }
     return (
-        <div>
+        <div className="w-full">
             <form className="flex flex-col m-4 " onSubmit={handler}>
                 <label className="text-white lg:text-2xl hover:underline">
                     First Name
