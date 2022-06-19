@@ -9,7 +9,7 @@ import Update from './components/update';
 function App() {
   return (
    
-    <div className="bg-red-500  App ">
+    <div className="bg-red-500  App items-center ">
       <h1 className='text-white font-bold text-xl md:text-5xl'>React Create Read</h1>
         <div className='w-full flex justify-center'>
         <div className='w-3/4 lg:w-1/4 flex justify-between text-white twxt-3xl font-semibold mt-5'>
