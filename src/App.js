@@ -10,7 +10,7 @@ function App() {
   return (
    
     <div className="bg-red-500  App ">
-      <h1 className='text-white font-bold text-xl md:text-5xl'>React Crud Operations</h1>
+      <h1 className='text-white font-bold text-xl md:text-5xl'>React Create Read</h1>
         <div className='w-full flex justify-center'>
         <div className='w-3/4 lg:w-1/4 flex justify-between text-white twxt-3xl font-semibold mt-5'>
         <NavLink to="/"  className="w-20 h-9 bg-gray-600 text-center rounded p-2 ">Create</NavLink>

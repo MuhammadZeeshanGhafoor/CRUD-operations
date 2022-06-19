@@ -46,7 +46,7 @@ const Read = () => {
           <tr className='border-2 border-white p-2 w-1/6'>ID</tr>
           <tr className='border-2 border-white p-2 w-full'>First Name</tr>
           <tr className='border-2 border-white p-2 w-full' >Last Name</tr>
-          <tr className='border-2 border-white p-2 w-full' >Actions</tr>
+          
         </thead>
         {
           post.map((res) => {
@@ -55,10 +55,7 @@ const Read = () => {
                 <tr className='border-2 border-white p-2 w-1/6 overflow-hidden ' key={res.id}>{res?.id}</tr>
                 <tr className='border-2 text-left border-white p-2 w-full overflow-hidden '>{res?.firstName}</tr>
                 <tr className='border-2 border-white p-2 w-full overflow-hidden '>{res?.lastName}</tr>
-                <tr className='border-2 border-white p-2 w-full overflow-hidden text-center justify-self-center'>
-                  <Link to={`/${res.id}`} >
-                    <button className='w-20 h-9 bg-slate-500 rounded-sm border-black ' >Update &#8634;</button>
-                    </Link></tr>
+               
               </tbody>
                
               
